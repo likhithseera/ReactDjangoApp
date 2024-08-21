@@ -80,7 +80,7 @@ Make sure Python is installed in your machine.
 
 Make the changes to the code and then run the following commands.
 ```
-Configuring COORS:
+Configuring CORS:
 
 1. Add 'corsheaders' to INSTALLED_APPS in myproject/settings.py
 
@@ -124,23 +124,57 @@ Make sure Node.js is installed in your machine.
    ```bash
    node -v
 
-1. **For creating react app globally and check whether properly installed:**
+2. **For creating react app globally and check whether properly installed:**
    ```bash
    npm install -g create-react-app
    create-react-app --version 
 
 
-1. **Navigate to the frontend directory for creating app:**
+3. **Navigate to the frontend directory for creating app:**
    ```bash
    npx create-react-app myfrontend
    cd ../myfrontend
 
-2. **Install dependencies:**
+4. **Install dependencies:**
    ```bash
    npm install axios
 
 Make the changes to the code and then run the following commands.
 
-3. **Start the React development server:**
+5. **Start the React development server:**
    ```bash
    npm start  
+
+### Running the Project
+
+#### Running the Backend
+
+1. **Ensure that the Django backend server is running:**
+   ```bash
+   cd myproject
+   python manage.py runserver
+
+2. **The backend server should be accessible at http://localhost:8000.**
+   
+#### Running the Frontend
+
+1. **Open a new terminal and start the React frontend server:**
+   ```bash
+   cd myfrontend
+   npm start
+
+2. **The frontend server should be accessible at http://localhost:3000**
+
+
+### How it Works
+- **API Requests**: When the React app loads, it sends HTTP GET requests to the Django backend.
+- **Data Fetching**: The Django backend processes these requests and sends back JSON responses.
+- **Data Display**: The React frontend captures this data and displays it on the webpage.
+
+### Future Enhancements
+- Implementing a more sophisticated UI with CSS or a UI library like Bootstrap.
+- Adding a better error handling for API requests on the frontend.
+
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
