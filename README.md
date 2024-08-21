@@ -79,7 +79,34 @@ Make sure Python is installed in your machine.
    python manage.py runserver
 
 Make the changes to the code and then run the following commands.
+```
+Configuring COORS:
 
+1. Add 'corsheaders' to INSTALLED_APPS in myproject/settings.py
+
+      INSTALLED_APPS = [
+          ...
+          'corsheaders',
+          ...
+      ]
+
+2. Add CorsMiddleware to MIDDLEWARE in myproject/settings.py:
+
+      MIDDLEWARE = [
+          ...
+          'corsheaders.middleware.CorsMiddleware',
+          'django.middleware.common.CommonMiddleware',
+          ...
+      ]
+
+3. Configure CORS settings in myproject/settings.py
+
+      CORS_ALLOWED_ORIGINS = [
+          "http://localhost:3000",
+          # Add any other allowed origins here
+      ]
+
+```
 4. **Apply migrations:**
    ```bash
    python manage.py makemigrations
