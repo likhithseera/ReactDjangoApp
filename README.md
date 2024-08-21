@@ -34,6 +34,7 @@ This project is a simple web application that demonstrates the integration of a 
 
 ## Project Structure
 
+```
 myproject/
 ├── myproject/ # Django project folder
 │ ├── settings.py # Django settings
@@ -44,6 +45,7 @@ myproject/
 │ ├── urls.py # App URL configuration
 │ └── ...
 └── manage.py # Django management script
+
 myfrontend/ # React project folder
 ├── src/
 │ ├── components/
@@ -51,6 +53,7 @@ myfrontend/ # React project folder
 │ ├── App.js # Main React app file
 │ └── ...
 └── package.json # Node.js dependencies and scripts
+```
 
 ## Setup Instructions
 
