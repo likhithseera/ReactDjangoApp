@@ -1,6 +1,8 @@
 # ReactDjangoApp
 This is a simple application which uses React and Django frameworks.
-
+- [3-Tier AWS Architecture](#features)
+- [Project Report for the Website](#technology-stack)
+  
 ## Overview
 
 This project is a simple web application that demonstrates the integration of a React.js frontend with a Django backend. The frontend consists of a simple web page that fetches and displays data from the backend's API endpoints.
