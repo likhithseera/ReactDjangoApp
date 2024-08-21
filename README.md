@@ -135,9 +135,9 @@ Make sure Node.js is installed in your machine.
    npx create-react-app myfrontend
    cd ../myfrontend
 
-4. **Install dependencies:**
+4. **Install dependencies present in ```package.json```:**
    ```bash
-   npm install axios
+   npm install 
 
 Make the changes to the code and then run the following commands.
 
