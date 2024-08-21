@@ -59,14 +59,14 @@ myfrontend/ # React project folder
 
 ### Backend Setup (Django)
 
-Make sure Python is installed in your machine.
+Make sure ```Python``` is installed in your machine.
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/react-django-simple-website.git
    cd react-django-simple-website/myproject
 
-2. **Create a virtual environment and install dependencies:**
+2. **Create a virtual environment and install dependencies present in ```requirements.txt```:**
    ```bash
    python -m venv env_site
    source env_site/bin/activate  # On Windows: .\env_site\Scripts\activate.ps1
@@ -118,7 +118,7 @@ Configuring CORS:
 
 ### Frontend Setup (React)
 
-Make sure Node.js is installed in your machine.
+Make sure ```Node.js``` is installed in your machine.
 
 1. **Make sure that node.js is properly installed or not in command prompt:**
    ```bash
