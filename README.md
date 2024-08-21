@@ -156,7 +156,7 @@ Make the changes to the code and then run the following commands.
    cd myproject
    python manage.py runserver
 
-2. **The backend server should be accessible at http://localhost:8000.**
+2. **The backend server should be accessible at ```http://localhost:8000```.**
    
 #### Running the Frontend
 
@@ -165,7 +165,7 @@ Make the changes to the code and then run the following commands.
    cd myfrontend
    npm start
 
-2. **The frontend server should be accessible at http://localhost:3000**
+2. **The frontend server should be accessible at ```http://localhost:3000```.**
 
 
 ### How it Works
