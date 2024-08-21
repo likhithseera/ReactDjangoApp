@@ -1,6 +1,6 @@
 # ReactDjangoApp
 This is a simple application which uses React and Django frameworks.
-- [3-Tier AWS Architecture](docs/AWS web app structural flow.png)
+- [3-Tier AWS Architecture](docs/AWS_webapp_structural_flow.png)
 - [Project Report for the Website](docs/ReactDjangoApp.pdf)
   
 ## Overview
